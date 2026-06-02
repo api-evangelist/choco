@@ -1,0 +1,38 @@
+aid: choco
+name: Choco
+description: >-
+  Choco is an AI-powered digital ordering platform that simplifies how
+  restaurants order from their food suppliers and distributors. Serving tens of
+  thousands of distributors and over one hundred thousand buyers across the US,
+  UK, Europe, and the GCC, Choco lets restaurateurs place orders and chat with
+  all their suppliers in one app while converting orders into a supplier's
+  preferred format. Choco connects to supplier ERP systems such as NetSuite,
+  QuickBooks, Microsoft Dynamics, Sage, and Odoo, and uses AI to turn emails,
+  texts, images, and documents into structured, ERP-ready orders. Choco does
+  not appear to publish a public developer API; integration is delivered
+  through its ERP connections.
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - Restaurant
+  - Ordering
+  - Food Distribution
+  - Suppliers
+  - ERP Integration
+  - Artificial Intelligence
+url: https://raw.githubusercontent.com/api-evangelist/choco/refs/heads/main/apis.yml
+created: '2026-06-02'
+modified: '2026-06-02'
+specificationVersion: '0.19'
+common:
+  - type: Website
+    url: https://choco.com/us/
+  - type: Login
+    url: https://web.choco.com
+  - type: Support
+    url: https://help.choco.com/en/
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/choco-app
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
