@@ -6,11 +6,15 @@ description: >-
   thousands of distributors and over one hundred thousand buyers across the US,
   UK, Europe, and the GCC, Choco lets restaurateurs place orders and chat with
   all their suppliers in one app while converting orders into a supplier's
-  preferred format. Choco connects to supplier ERP systems such as NetSuite,
-  QuickBooks, Microsoft Dynamics, Sage, and Odoo, and uses AI to turn emails,
-  texts, images, and documents into structured, ERP-ready orders. Choco does
-  not appear to publish a public developer API; integration is delivered
-  through its ERP connections.
+  preferred format (email, WhatsApp, text, fax, or direct ERP integration).
+  Choco connects to supplier ERP systems such as Entree, NetSuite, QuickBooks,
+  Microsoft Dynamics, Target Data System, NCR, Sage, and Odoo, and uses AI —
+  including OrderAgent for multimodal order capture and VoiceAgent built on
+  OpenAI's Realtime API — to turn emails, texts, images, and documents into
+  structured, ERP-ready orders. Choco does not publish a public developer API;
+  integration is delivered through managed ERP connections, and its public
+  GitHub organization (chocoapp) hosts only internal data-engineering and
+  infrastructure tooling rather than client SDKs or API specifications.
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
@@ -20,6 +24,8 @@ tags:
   - Suppliers
   - ERP Integration
   - Artificial Intelligence
+  - Supply Chain
+  - Food Service
 url: https://raw.githubusercontent.com/api-evangelist/choco/refs/heads/main/apis.yml
 created: '2026-06-02'
 modified: '2026-06-02'
@@ -31,8 +37,57 @@ common:
     url: https://web.choco.com
   - type: Support
     url: https://help.choco.com/en/
+  - type: Integrations
+    url: https://help.choco.com/en/
+    title: ERP Integrations
+  - type: Blog
+    url: https://choco.com/us/stories
+  - type: GitHubOrganization
+    url: https://github.com/chocoapp
+  - type: email
+    url: open.source@choco.com
+    title: Open Source Contact
   - type: LinkedIn
     url: https://www.linkedin.com/company/choco-app
+  - type: TermsOfService
+    url: https://choco.com/terms-conditions
+  - type: PrivacyPolicy
+    url: https://choco.com/privacy-policy
+features:
+  - name: AI Order Capture (OrderAgent)
+    description: >-
+      Processes multimodal inputs — emails, SMS, images, and documents — and
+      converts them into structured, ERP-ready orders for distributors.
+  - name: Voice Ordering (VoiceAgent)
+    description: >-
+      A voice ordering agent built on OpenAI's Realtime API that lets customers
+      place orders naturally over the phone with sub-second latency, including
+      outside business hours.
+  - name: Unified Supplier Messaging
+    description: >-
+      Restaurateurs place orders and chat with all of their suppliers in one
+      app, with orders converted into each supplier's preferred format.
+  - name: Order Format Conversion
+    description: >-
+      Outbound orders are delivered to suppliers via email, WhatsApp, text,
+      fax, or direct ERP integration.
+integrations:
+  - name: Entree
+    description: Direct ERP integration with the Entree distribution management system.
+  - name: NetSuite
+    description: Direct ERP integration with Oracle NetSuite.
+  - name: QuickBooks
+    description: Direct ERP integration with Intuit QuickBooks.
+  - name: Microsoft Dynamics
+    description: Direct ERP integration with Microsoft Dynamics.
+  - name: Target Data System
+    description: Direct ERP integration with Target Data System.
+  - name: NCR
+    description: Direct ERP integration with NCR distribution systems.
+  - name: Sage
+    description: Direct ERP integration with Sage ERP.
+  - name: Odoo
+    description: Direct ERP integration with the Odoo ERP platform.
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
