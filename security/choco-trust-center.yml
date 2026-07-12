@@ -1,0 +1,12 @@
+generated: '2026-07-11'
+method: searched
+probe: true
+source: https://choco.com/us/security
+url: https://choco.com/us/security
+certifications:
+- SOC 2
+evidence:
+- source: https://choco.com/us/security
+  keywords:
+  - soc 2
+  - trust center

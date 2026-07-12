@@ -31,6 +31,10 @@ created: '2026-06-02'
 modified: '2026-06-02'
 specificationVersion: '0.19'
 common:
+  - type: TrustCenter
+    url: security/choco-trust-center.yml
+  - type: DomainSecurity
+    url: security/choco-domain-security.yml
   - type: Website
     url: https://choco.com/us/
   - type: Login
