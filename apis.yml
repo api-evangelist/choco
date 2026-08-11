@@ -59,9 +59,6 @@ common:
     url: https://choco.com/us/stories
   - type: GitHubOrganization
     url: https://github.com/chocoapp
-  - type: email
-    url: open.source@choco.com
-    title: Open Source Contact
   - type: LinkedIn
     url: https://www.linkedin.com/company/choco-app
   - type: TermsOfService
