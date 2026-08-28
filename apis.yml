@@ -16,6 +16,17 @@ description: >-
   GitHub organization (chocoapp) hosts only internal data-engineering and
   infrastructure tooling rather than client SDKs or API specifications.
 type: Index
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
