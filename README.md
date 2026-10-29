@@ -1,4 +1,4 @@
-# Choco (choco)
+# Choco
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -66,56 +66,83 @@
 
 Choco is an AI-powered digital ordering platform that simplifies how restaurants order from their food suppliers and distributors. Serving tens of thousands of distributors and over one hundred thousand buyers across the US, UK, Europe, and the GCC, Choco lets restaurateurs place orders and chat with all their suppliers in one app while converting orders into a supplier's preferred format (email, WhatsApp, text, fax, or direct ERP integration). Choco connects to supplier ERP systems such as Entree, NetSuite, QuickBooks, Microsoft Dynamics, Target Data System, NCR, Sage, and Odoo, and uses AI — including OrderAgent for multimodal order capture and VoiceAgent built on OpenAI's Realtime API — to turn emails, texts, images, and documents into structured, ERP-ready orders. Choco does not publish a public developer API; integration is delivered through managed ERP connections, and its public GitHub organization (chocoapp) hosts only internal data-engineering and infrastructure tooling rather than client SDKs or API specifications.
 
-**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/choco/refs/heads/main/apis.yml)
+**Areas:** Restaurant · Ordering · Food Distribution · Suppliers · ERP Integration · Artificial Intelligence · Supply Chain · Food Service
 
-**Run:** [Capabilities Using Naftiko](https://github.com/naftiko/fleet?utm_source=api-evangelist&utm_medium=readme&utm_campaign=company-api-evangelist&utm_content=repo)
+## Choco on APIs.io
 
-## Tags:
+Everything profiled for Choco is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/choco/](https://apis.io/providers/choco/)** — or go straight to one of the APIs or properties below.
 
- - Restaurant, Ordering, Food Distribution, Suppliers, ERP Integration, Artificial Intelligence, Supply Chain, Food Service
+### Published properties
 
-## Timestamps
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-- **Created:** 2026-06-02
-- **Modified:** 2026-06-02
+#### Security (2)
 
-## Common Properties
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Choco Domain Security](https://apis.io/security/choco/choco-domain-security/)
+- [Choco Trust Center](https://apis.io/security/choco/choco-trust-center/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://choco.com/us/)
-- [Login](https://web.choco.com)
 - [Support](https://help.choco.com/en/)
-- [ERP Integrations](https://help.choco.com/en/)
 - [Blog](https://choco.com/us/stories)
-- [GitHubOrganization](https://github.com/chocoapp)
-- [Open Source Contact](open.source@choco.com)
-- [LinkedIn](https://www.linkedin.com/company/choco-app)
-- [TermsOfService](https://choco.com/terms-conditions)
-- [PrivacyPolicy](https://choco.com/privacy-policy)
+- [Terms of service](https://choco.com/terms-conditions)
+- [Privacy policy](https://choco.com/privacy-policy)
+- [GitHub](https://github.com/chocoapp)
 
-## Features
+## API Evangelist rating
 
-| Name | Description |
-|------|-------------|
-| AI Order Capture (OrderAgent) | Processes multimodal inputs — emails, SMS, images, and documents — and converts them into structured, ERP-ready orders for distributors. |
-| Voice Ordering (VoiceAgent) | A voice ordering agent built on OpenAI's Realtime API that lets customers place orders naturally over the phone with sub-second latency, including outside business hours. |
-| Unified Supplier Messaging | Restaurateurs place orders and chat with all of their suppliers in one app, with orders converted into each supplier's preferred format. |
-| Order Format Conversion | Outbound orders are delivered to suppliers via email, WhatsApp, text, fax, or direct ERP integration. |
+**Kin Score 14.0** — emerging · rubric 0.24.0 · scored 2026-10-17
 
-## Integrations
+| Facet | Score |
+|---|---|
+| Discoverability | 48.2 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 2.6 |
+| Developer ergonomics | 7.1 |
+| Access clarity | 35.5 |
 
-| Name | Description |
-|------|-------------|
-| Entree | Direct ERP integration with the Entree distribution management system. |
-| NetSuite | Direct ERP integration with Oracle NetSuite. |
-| QuickBooks | Direct ERP integration with Intuit QuickBooks. |
-| Microsoft Dynamics | Direct ERP integration with Microsoft Dynamics. |
-| Target Data System | Direct ERP integration with Target Data System. |
-| NCR | Direct ERP integration with NCR distribution systems. |
-| Sage | Direct ERP integration with Sage ERP. |
-| Odoo | Direct ERP integration with the Odoo ERP platform. |
+**Agent readiness 0.0** — human-only
 
-## Maintainers
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
 
-**FN:** Kin Lane
+**Regulatory alignment 17.3** — Horizontal (data, software, accessibility, platform)
 
-**Email:** kin@apievangelist.com
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/choco/](https://apis.io/providers/choco/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Choco: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/choco/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
